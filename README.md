@@ -5,8 +5,8 @@ A macOS scratchpad for mastering the most commonly asked JavaScript interview qu
 Practice Pad gives you 24 classic interview problems (`debounce`, `throttle`, `Promise.all`, `deep
 clone`, `currying`, and more). 
 
-- Difficulty levels that build on each other, where a question has more than one to teach
 - A built-in test runner
+- Different difficulty levels 
 - AI assistant powered by Claude that can assist you when you're stuck on a question
 - A tracking tab that shows you the progress you're making
 - A pomodoro timer 
