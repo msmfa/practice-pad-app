@@ -5,7 +5,7 @@ A macOS scratchpad for mastering the most commonly asked JavaScript interview qu
 Practice Pad gives you 24 classic interview problems (`debounce`, `throttle`, `Promise.all`, `deep
 clone`, `currying`, and more). 
 
-- Each question has three difficulty levels
+- Difficulty levels that build on each other, where a question has more than one to teach
 - A built-in test runner
 - AI assistant powered by Claude that can assist you when you're stuck on a question
 - A tracking tab that shows you the progress you're making
@@ -23,6 +23,11 @@ Currently built for Apple Silicon (arm64) Macs.
 Click the gear icon in the app to add your own key from the [Claude Platform](https://platform.claude.com/settings/keys).
 Encrypted on your device via the macOS keychain.
 
-## License
+## Licence
 
-[MIT](./LICENSE)
+Proprietary. Copyright © 2026 Michael Sydney Moore, all rights reserved — see
+[LICENSE](./LICENSE).
+
+Builds here are licensed for personal use, not sold, and may not be redistributed or
+reverse engineered. Bundled third-party components (Electron, Monaco Editor, React, and
+others) keep their own licences, and their notices ship with the application.
