@@ -5,9 +5,9 @@
 **A focused macOS scratchpad for practising the JavaScript and TypeScript questions
 that keep coming up in front-end interviews.**
 
-[![Latest release](https://img.shields.io/github/v/release/msmfa/practice-pad-app?label=download&color=2f81f7&style=flat-square)](../../releases/latest)
-[![Platform](https://img.shields.io/badge/platform-macOS%20Apple%20Silicon-1f2328?style=flat-square)](../../releases/latest)
-[![Licence](https://img.shields.io/badge/licence-proprietary-8b949e?style=flat-square)](./LICENSE)
+[![Download the latest release](https://img.shields.io/github/v/release/msmfa/practice-pad-app?style=flat-square&label=download&labelColor=1C1F26&color=40AC6C&logo=apple&logoColor=white)](../../releases/latest)
+[![Runs on macOS, Apple Silicon](https://img.shields.io/badge/macOS-Apple_Silicon-2D323D?style=flat-square&labelColor=1C1F26&logo=apple&logoColor=white)](../../releases/latest)
+[![Licence: proprietary](https://img.shields.io/badge/licence-proprietary-2D323D?style=flat-square&labelColor=1C1F26)](./LICENSE)
 
 ![Practice Pad in use: picking a question, writing a solution, and running the tests](docs/practice-pad-demo.gif)
 
