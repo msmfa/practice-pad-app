@@ -34,8 +34,6 @@ Every question ships with a hidden suite. Hit **Run tests** and the results appe
 panel below the editor, alongside a console for your own `console.log` calls. Your code runs
 in a separate sandboxed process, so an infinite loop costs you a click rather than the app.
 
-<img alt="The question brief, editor, and test output" src="https://github.com/user-attachments/assets/693a0e9b-5815-44a1-9780-23651beffdbc" />
-
 ### Three difficulty levels that build on each other
 
 Easy, Medium and Hard are not three different questions. They are the same question with
@@ -51,17 +49,21 @@ Stuck on a question, or want your working solution critiqued? The AI panel revie
 you have actually written against the brief you are actually on. It runs on your own
 Anthropic API key, and code is only ever sent when you press send.
 
+![Claude reviewing a deep clone attempt, with the failing tests listed underneath](docs/screenshots/ai-review.png)
+
 ### Progress tracking
 
-A dedicated tab showing which questions you have passed, at which level, and in which
-language, so you can see the gaps rather than guess at them.
+A grid of every question against every level, so you can see the gaps rather than guess at
+them. Each cell records one of three states: practised, completed with help, or solved on
+your own. The distinction matters, because a question you only finished with the AI panel
+open is not one you have learned yet.
+
+![The progress grid, with a solved debounce and its three tests passing](docs/screenshots/progress-and-tests.png)
 
 ### A Pomodoro timer
 
 Built into the toolbar, because the point is to practise for twenty-five minutes, not to
 open the app and reorganise your folders.
-
-<img alt="The AI review panel and the progress tab" src="https://github.com/user-attachments/assets/1e56b476-3f32-48c4-b1a4-3491059a649f" />
 
 ### Small things that matter
 
