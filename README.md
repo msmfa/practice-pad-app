@@ -2,8 +2,8 @@
 
 # Practice Pad
 
-**A focused macOS scratchpad for practising the JavaScript and TypeScript questions
-that keep coming up in front-end interviews.**
+**A focused scratchpad for practising the JavaScript and TypeScript questions
+that keep coming up in front-end interviews, on macOS, Windows and Linux.**
 
 [![Download the latest release](docs/badges/download.svg)](../../releases/latest) [![Runs on macOS, Apple Silicon](docs/badges/platform.svg)](../../releases/latest) [![Licence: proprietary](docs/badges/licence.svg)](./LICENSE)
 
@@ -17,16 +17,17 @@ Twenty-four classic interview problems, each with a written brief, worked exampl
 hidden test suite. Pick a question, write the solution in a real editor, run the tests, and
 ask Claude when you get stuck.
 
-No browser tabs, no sign-in, no scoreboard. Your work is saved on your Mac and stays there.
+No browser tabs, no sign-in, no scoreboard. Your work is saved on your device and stays there.
 
 ## Features
 
 ### A real editor, in JavaScript or TypeScript
 
 Monaco, the editor from VS Code, with full language services: completion, hover types,
-inline diagnostics and go-to-definition. Switch a question between JavaScript and TypeScript
-at any time and the starter code, examples and tests all switch with it. TypeScript starters
-come with the interfaces already written, so you implement against a real signature.
+inline diagnostics and go-to-definition. Switch a question between JavaScript and
+TypeScript at any time and the starter code, examples and tests all switch with it.
+TypeScript starters come with the interfaces already written, so you implement against a
+real signature.
 
 ### A built-in test runner
 
@@ -69,8 +70,8 @@ open the app and reorganise your folders.
 
 - **Autosave.** Your work in progress survives a quit, per question and per language.
 - **Auto-run.** Tests can re-run as you type, so the feedback loop stays tight.
-- **Your key, your keychain.** The Anthropic key is stored in the macOS keychain, never in a
-  config file.
+- **Your key, your OS keychain.** The Anthropic key is stored in your operating system's
+  secure credential store, never in a config file.
 - **Automatic updates.** New releases install themselves.
 
 ## The questions
@@ -117,11 +118,12 @@ Each one is available in both JavaScript and TypeScript, at all three levels.
 
 ## Download
 
-Grab the latest signed and notarised build from the
-[Releases page](../../releases/latest). Open the `.dmg`, drag Practice Pad into
-Applications, and launch it like any other Mac app.
+Grab the latest build for your platform from the
+[Releases page](../../releases/latest): the signed and notarised `.dmg` for macOS, the
+`Setup.exe` installer for Windows, or the `.deb`/`.rpm` package for Linux.
 
-Built for Apple Silicon (arm64) Macs, macOS 11 Big Sur or newer.
+Built for Apple Silicon (arm64) Macs (macOS 11 Big Sur or newer), Windows 10 or newer
+(x64), and Linux (x64).
 
 ## Using your own Claude API key
 
@@ -131,8 +133,8 @@ The AI panel needs a key. Everything else in the app works without one.
 2. Open Practice Pad and click the gear icon.
 3. Paste the key in and save.
 
-It is stored encrypted in the macOS keychain on your device. Anthropic API usage is billed
-separately from a Claude subscription.
+It is stored encrypted in your operating system's secure credential store on your device.
+Anthropic API usage is billed separately from a Claude subscription.
 
 ## Licence
 
